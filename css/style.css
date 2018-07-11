@@ -212,7 +212,7 @@ input: -webkit-autofill:focus {
     font-weight: 700;
 }
 #header .top_header .social_icon i:hover {
-    color: #43A906;
+    color: #167336;
 }
 
 /*End of top header*/
@@ -248,10 +248,10 @@ input: -webkit-autofill:focus {
     font-family: 'Roboto Slab', serif;
 }
 #header .header_menu ul.main_menu li a:hover {
-    color: #4DA91C;
+    color: #167336;
 }
 #header .header_menu ul.main_menu li.active a {
-    color: #4DA91C;
+    color: #167336;
 }
 #header .header_menu ul.main_menu li,
 #header .header_menu ul.main_menu li.active a {
@@ -271,7 +271,7 @@ input: -webkit-autofill:focus {
 #header .header_menu ul.main_menu li:hover:after,
 #header .header_menu ul.main_menu li.active:after {
     width: 90%;
-    background: #4DA91C;
+    background: #167336;
 }
 
 /*Slider*/
@@ -305,7 +305,7 @@ input: -webkit-autofill:focus {
     font-size: 14px;
     color: #fff;
     padding: 15px 25px;
-    background: #43a906;
+    background: #167336;
     border-radius: 2px;
     margin-top: 20px;
     font-family: 'Lato', sans-serif;
@@ -424,14 +424,14 @@ input: -webkit-autofill:focus {
     font-family: 'Open Sans', sans-serif;
 }
 #welcome .item_list:hover .welcome_icon {
-    background: #43a906;
+    background: #167336;
     cursor: pointer;
 }
 #welcome .item_list:hover .welcome_icon i {
     color: #fff;
 }
 #welcome .item_list:hover h4 {
-    color: #43a906;
+    color: #167336;
     cursor: pointer;
 }
 
@@ -450,7 +450,7 @@ input: -webkit-autofill:focus {
     font-family: 'Open Sans', sans-serif;
 }
 #volunteer .volunteer_content h3 span {
-    color: #43a906;
+    color: #167336;
 }
 #volunteer .volunteer_content p {
     font-size: 14px;
@@ -464,10 +464,10 @@ input: -webkit-autofill:focus {
     padding: 80px 0;
 }
 #volunteer .join_us a.vol_cust_btn {
-    background: #43a906;
+    background: #167336;
     color: #fff;
     padding: 8px 50px;
-    border: 1px solid #43a906;
+    border: 1px solid #167336;
     border-radius: 3px;
     text-transform: uppercase;
     font-size: 18px;
@@ -520,11 +520,11 @@ input: -webkit-autofill:focus {
     padding: 10px 0px;
 }
 #portfolio ul.portfolio_custom_menu li button:hover {
-    background: #43a906;
+    background: #167336;
     color: #fff;
 }
 #portfolio ul.portfolio_custom_menu li button.btn_active {
-    background: #43a906;
+    background: #167336;
     box-shadow: inset 0 1px 10px hsla(0, 0%, 100%, 0);
     color: #fff;
 }
@@ -614,7 +614,7 @@ section#counter {
 .sigle_counter_item i {
     font-size: 60px;
     padding: 10px;
-    color: #43A906;
+    color: #167336;
 }
 .counter_text span {
     font-size: 32px;
@@ -699,7 +699,7 @@ section#counter {
     font-family: 'Open Sans', sans-serif;
 }
 #event a.event_btn:hover {
-    background: #43a906;
+    background: #167336;
 }
 #event .event_news {
     padding-bottom: 27px;
@@ -838,7 +838,7 @@ section#counter {
     font-family: 'Roboto', sans-serif;
 }
 #blog a.blog_link:hover {
-    color: #43a906;
+    color: #167336;
 }
 
 /*purches*/
@@ -867,7 +867,7 @@ section#market {
     float: right;
     margin-top: 80px;
     padding: 8px 58px;
-    background: #43a906;
+    background: #167336;
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
@@ -931,7 +931,7 @@ li.fw-flash-message {
 }
 .custom-btn {
     padding: 13px 82px;
-    background: #43a906;
+    background: #167336;
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
@@ -1032,7 +1032,7 @@ li.fw-flash-message {
     transition: all 0.5s ease;
     opacity: 0;
     display: none;
-    background: #43a906;
+    background: #167336;
 }
 #back-to-top:hover {
     color: #fff;
@@ -1166,7 +1166,7 @@ ul.entry-meta {
     text-align: left;
 }
 .btn-primmary{
-    background-color: #43a906;
+    background-color: #167336;
     padding: 10px 30px;
     font-size: 16px;
     font-family: 'Roboto Slab', serif;
