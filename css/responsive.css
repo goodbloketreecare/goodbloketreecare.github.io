@@ -41,7 +41,7 @@
     }
     .testimonial_content {
         padding: 20px 20px;
-        height: 140px;
+        /* height: 140px; */
     }
     .testimonial_content i {
         top: 55px;
@@ -777,7 +777,7 @@
         height: 75px;
     }
     .testimonial_content {
-        height: 150px;
+        /* height: 150px; */
         width: 100%;
         margin: 0 auto;
     }
