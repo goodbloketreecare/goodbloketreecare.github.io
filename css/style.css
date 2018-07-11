@@ -285,7 +285,7 @@ input: -webkit-autofill:focus {
 #slider .slider_text h2 {
     font-size: 52px;
     padding: 10px 0;
-    font-weight: 600;
+    font-weight: 200;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
 }
@@ -293,6 +293,7 @@ input: -webkit-autofill:focus {
     font-size: 45px;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
+    font-weight: 300;
 }
 #slider .slider_text p {
     font-size: 17px;
@@ -531,23 +532,25 @@ input: -webkit-autofill:focus {
     background: rgba(21, 21, 18, 0.92);
     z-index: 1;
     position: absolute;
-    width: 94%;
+    /* width: 94%;
     height: 94%;
     top: 3%;
-    left: 3%;
+    left: 3%; */
     color: #fff;
     opacity: 0;
     transition: 0.7s;
 }
 #portfolio .notes .note .img_overlay p {
-    position: relative;
-    top: 45%;
+    position: absolute;
+    top: 84%;
+    left: 2%;
     opacity: 0;
     transition: 0.7s;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
 }
+
 #portfolio .notes .note:hover .img_overlay,
 #portfolio .notes .note:hover .img_overlay p {
     opacity: 10;
@@ -572,7 +575,7 @@ div#achivement {
     color: #fff;
 }*/
 section#counter {
-    background: url(../img/img1.jpg) no-repeat scroll top center / cover;
+    background: url(../img/stump2.jpg) no-repeat scroll top center / cover;
     color: #fff;
 }
 .counter_img_overlay {
@@ -725,7 +728,7 @@ section#counter {
 
 #testimonial {
     color: #fff;
-    background: url(../img/img3.jpg) no-repeat scroll top center / cover;
+    background: url(../img/park.jpg) no-repeat scroll top center / cover;
 }
 .testimonial_overlay {
     padding: 80px 0;
@@ -939,8 +942,8 @@ li.fw-flash-message {
     font-family: 'Roboto Slab', serif;
     outline: 0 !important;
 }
-.office {
-    padding-top: 50px
+.office_location {
+    padding-top: 36%
 }
 .office .title h5 {
     font-size: 22px;
@@ -953,7 +956,7 @@ li.fw-flash-message {
 .office_location i span {
     padding-left: 15px;
     color: #696969;
-    font-size: 14px;
+    font-size: 25px;
     font-family: 'Open Sans', sans-serif;
 }
 .office_location i {
@@ -1141,7 +1144,7 @@ li.fw-flash-message {
 #contact-us .office_location i span {
     padding-left: 15px;
     color: #696969;
-    font-size: 14px;
+    font-size: 25px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -1186,3 +1189,8 @@ ul.entry-meta {
 .main-content.blog-w.rap,.main-content.container.blog-wrap.single-blog {
     margin-top: 80px;
 }
+
+
+
+
+

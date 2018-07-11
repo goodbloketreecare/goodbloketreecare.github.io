@@ -30,13 +30,13 @@ ul.menu li button {
 .black {
     margin-left: 5px;
     margin-top: 5px;
-    height: 200px;
+    /* height: 200px; */
 }
 .blue img,
 .red img,
 .green img,
 .black img {
-    height: 200px;
+    /* height: 200px; */
     width: 100%;
 }
 .yellow img {
@@ -48,7 +48,7 @@ ul.menu li button {
     background: blue;
 }
 .red {
-    width: 30%;
+    width: 49%;
     background: red;
 }
 .green {

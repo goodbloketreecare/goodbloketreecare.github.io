@@ -1,5 +1,9 @@
-/*Medium Screen*/
 
+.navbar-brand>img {
+    width: 14%;
+}
+
+/*Medium Screen*/
 @media (max-width: 1199px) {}
 @media (max-width: 991px) {
     #header .top_header .phone p {
@@ -103,6 +107,10 @@
         width:auto;
         float:none!important;
     }
+    .custom_navbar-brand>img {
+        width: 10%;
+        margin-top: -12%;
+    }
 }
 @media all and (max-width: 960px) and (min-width: 640px) {
     #header .top_header .address {
@@ -130,9 +138,10 @@
     }
     #header .header_menu .custom_navbar-brand {
         padding-top: 8px;
+        width: 10%;
     }
-    #header .header_menu .custom_navbar-brand>img {
-        width: 75%;
+    .custom_navbar-brand>img {
+        width: 86%;
     }
     #header .header_menu {
         min-height: 60px;
@@ -530,11 +539,15 @@
         padding: 0 5px;
         font-size: 10px;
     }
+    .navbar-header {
+        padding-left: 45%;
+    }
     #header .header_menu .custom_navbar-brand {
-        padding-top: 8px;
+        width: 20%;
+        height: auto;
     }
     #header .header_menu .custom_navbar-brand>img {
-        width: 75%;
+        width: 100%;
     }
     #header .header_menu {
         min-height: 60px;
@@ -929,6 +942,11 @@
     .carousel-indicators li {
         top: 60px;
     }
+
+    .custom_navbar-brand>img {
+        width: 25%;
+    }
+
 }
 @media all and (max-width: 480px) {
 
@@ -937,9 +955,11 @@
 
     #header .header_menu .custom_navbar-brand {
         padding-top: 8px;
+        width: 33%;
+        height: auto;
     }
     #header .header_menu .custom_navbar-brand>img {
-        width: 75%;
+        width: 100%;
     }
     #header .header_menu {
         min-height: 60px;
