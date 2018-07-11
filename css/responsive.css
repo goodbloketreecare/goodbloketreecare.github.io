@@ -505,8 +505,20 @@
         bottom: 5px;
         right: 5px;
     }
+    #counter {
+        padding-bottom: 0;
+    }
 }
 @media all and (max-width: 767px) {
+
+    #contact #footer-logo {
+        width: 40% !important;
+
+        margin-right: 27% !important;
+        margin-top: 2% !important;
+        margin-left: 18% !important;
+    }
+
     #header .top_header .address {
         margin-right: -10px;
         margin-left: -10px;
@@ -693,7 +705,7 @@
         font-size: 11px;
     }
     #counter {
-        padding-bottom: 20px;
+        padding-bottom: 0;
     }
     #counter .counter_header {
         padding-top: 20px;
@@ -950,7 +962,9 @@
 }
 @media all and (max-width: 480px) {
 
-
+    #contact .office_location div {
+        text-align: center;
+    }
 
 
     #header .header_menu .custom_navbar-brand {
@@ -1090,7 +1104,7 @@
         padding: 30px 0;
     }
     #counter {
-        padding-bottom: 20px;
+        padding-bottom: 0;
     }
     #counter .counter_header {
         padding-top: 20px;
@@ -1476,7 +1490,7 @@
         padding: 25px 0;
     }
     #counter {
-        padding-bottom: 20px;
+        padding-bottom: 0;
     }
     #counter .counter_header {
         padding-top: 20px;
@@ -1554,7 +1568,7 @@
         font-size: 10px;
     }
     #testimonial {
-        padding: 25px 0px;
+        padding: 0 0px;
     }
     #testimonial .testimonial_header {
         padding-top: 20px;
