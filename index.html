@@ -773,10 +773,6 @@
 
         <script>
         window.onload = function() {
-            if(!window.location.hash) {
-                window.location = window.location + '#loaded';
-                window.location.reload(false);
-            }
             var h = $('.notes').css('height').replace('px','');
             while (h < 1000) {
                 var $notes = $(".notes").isotope({
@@ -784,6 +780,10 @@
                     , layoutMode: 'packery'
                 });
                 h = $('.notes').css('height').replace('px','');
+            }
+            if(!window.location.hash) {
+                window.location = window.location + '#loaded';
+                window.location.reload(false);
             }
         }
 
