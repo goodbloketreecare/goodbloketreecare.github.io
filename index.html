@@ -777,12 +777,13 @@
                 window.location = window.location + '#loaded';
                 window.location.reload(false);
             }
-            alert($('.notes').css('height'));
-            if ($('.notes').css('height') == '50px') {
+            var h = $('.notes').css('height').replace('px','');
+            while (h < 1000) {
                 var $notes = $(".notes").isotope({
                     itemSelector: ".note"
                     , layoutMode: 'packery'
                 });
+                h = $('.notes').css('height').replace('px','');
             }
         }
 
