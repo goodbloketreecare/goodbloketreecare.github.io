@@ -766,12 +766,18 @@
         <script src="js/main.js"></script>
 
         <script>
-        // window.onload = function() {
-        //     if(!window.location.hash) {
-        //         window.location = window.location + '#loaded';
-        //         window.location.reload(false);
-        //     }
-        // }
+        window.onload = function() {
+            if(!window.location.hash) {
+                window.location = window.location + '#loaded';
+                window.location.reload(false);
+            }
+            if ($('.notes').css('height') == '50px') {
+                var $notes = $(".notes").isotope({
+                    itemSelector: ".note"
+                    , layoutMode: 'packery'
+                });
+            }
+        }
 
         $(function() {
        $('a[href*="#"]:not([href="#"])').click(function() {
