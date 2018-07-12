@@ -373,7 +373,7 @@
         font-size: 11px;
     }
     #testimonial #fade-quote-carousel .profile-circle {
-        width: 50px;
+        /* width: 50px; */
         height: 75px;
     }
     #testimonial .testimonial_content p {
@@ -785,7 +785,7 @@
         font-size: 11px;
     }
     #testimonial #fade-quote-carousel .profile-circle {
-        width: 50px;
+        /* width: 50px; */
         height: 75px;
     }
     .testimonial_content {
@@ -795,6 +795,7 @@
     }
     .profile-circle img {
         height: 70px;
+        max-width: 70px;
     }
     .profile-circle {
         top: 60px;
@@ -1191,7 +1192,7 @@
         font-size: 11px;
     }
     #testimonial #fade-quote-carousel .profile-circle {
-        width: 50px;
+        /* width: 50px; */
         height: 75px;
     }
     #testimonial .testimonial_content p {
@@ -1581,7 +1582,7 @@
         font-size: 11px;
     }
     #testimonial #fade-quote-carousel .profile-circle {
-        width: 50px;
+        /* width: 50px; */
         height: 75px;
     }
     #testimonial .testimonial_content p {

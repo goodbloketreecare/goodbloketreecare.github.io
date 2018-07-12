@@ -777,9 +777,10 @@
         window.onload = function() {
             if(!window.location.hash) {
                 window.location = window.location + '#loaded';
-                window.location.reload();
+                window.location.reload(false);
             }
         }
+
         $(function() {
        $('a[href*="#"]:not([href="#"])').click(function() {
          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
