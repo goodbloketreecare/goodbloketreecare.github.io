@@ -1203,5 +1203,8 @@ body {
 .top_header {
 	display: none !important;
 }
+#contact {
+	background: black;
+}
 
 
