@@ -1198,7 +1198,7 @@ body {
 	background: black;
 }
 .navbar-brand>img {
-    width: 11%;
+    width: 11% !important;
 }
 
 
