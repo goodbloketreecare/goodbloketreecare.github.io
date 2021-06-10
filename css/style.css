@@ -1194,5 +1194,11 @@ ul.entry-meta {
 body {
 	background-color: black;
 }
+.affix {
+	background: black;
+}
+.navbar-brand>img {
+    width: 11%;
+}
 
 
