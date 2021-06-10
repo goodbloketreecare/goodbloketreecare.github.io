@@ -1200,5 +1200,8 @@ body {
 .navbar-brand>img {
     width: 11% !important;
 }
+.top_header {
+	display: none !important;
+}
 
 
